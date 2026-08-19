@@ -1,7 +1,5 @@
 name: Believers Sword
-description:
-  Bible study companion for reading Scripture, comparing translations, taking
-  notes, highlighting verses, tracking prayers, and studying offline.
+description: Bible study app with offline Scripture, notes, highlights, and prayers.
 website: https://www.believersword.com/
 category: Productivity
 repository: https://github.com/JenuelDev/Believers-Sword
