@@ -3,7 +3,7 @@ description:
   Bible study companion for reading Scripture, comparing translations, taking
   notes, highlighting verses, tracking prayers, and studying offline.
 website: https://www.believersword.com/
-category: Productivity
+category: Reference
 repository: https://github.com/JenuelDev/Believers-Sword
 keywords:
   - bible
@@ -14,7 +14,7 @@ keywords:
   - notes
   - highlights
   - offline
-license: GPL-3.0
+license: PolyForm Noncommercial License 1.0.0
 screenshots:
   - imageUrl: 'https://raw.githubusercontent.com/JenuelDev/Believers-Sword/main/design-assets/screenshots/desktop/desktop-hero-01.png'
     caption: 'Compare Bible translations and keep detailed study notes'
