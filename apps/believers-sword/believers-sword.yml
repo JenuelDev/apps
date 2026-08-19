@@ -1,29 +1,32 @@
 name: Believers Sword
 description:
-  Bible Studying Software is a simple and an amazing application that helps you
-  study the bible in an enjoyable and enriching manner.
+  Bible study companion for reading Scripture, comparing translations, taking
+  notes, highlighting verses, tracking prayers, and studying offline.
 website: https://www.believersword.com/
 category: Productivity
-repository: https://github.com/Bible-Projects/believers-sword-next
+repository: https://github.com/JenuelDev/Believers-Sword
 keywords:
-  - believer
-  - sword
-  - software
   - bible
   - study
-  - happy
   - prayer
-  - knowledge
-  - wise
-  - love
-  - Jesus
-  - God
-  - Gospel
-license: MIT
+  - scripture
+  - devotional
+  - notes
+  - highlights
+  - offline
+license: GPL-3.0
 screenshots:
-  - imageUrl: 'https://i.imgur.com/DicpyKK.png'
-    caption: 'Believers Sword Dark Interface'
-    imageLink: 'https://believers-sword-app.herokuapp.com/'
-  - imageUrl: 'https://i.imgur.com/jyS2DK6.png'
-    caption: 'Believers Sword Light Interface'
-    imageLink: 'https://believers-sword-app.herokuapp.com/'
+  - imageUrl: 'https://raw.githubusercontent.com/JenuelDev/Believers-Sword/main/design-assets/screenshots/desktop/desktop-hero-01.png'
+    caption: 'Compare Bible translations and keep detailed study notes'
+  - imageUrl: 'https://raw.githubusercontent.com/JenuelDev/Believers-Sword/main/design-assets/screenshots/desktop/desktop-preview-01.png'
+    caption: 'Study Scripture side by side in a personalized workspace'
+  - imageUrl: 'https://raw.githubusercontent.com/JenuelDev/Believers-Sword/main/design-assets/screenshots/desktop/desktop-preview-02.png'
+    caption: 'Follow a focused five-step daily devotional'
+  - imageUrl: 'https://raw.githubusercontent.com/JenuelDev/Believers-Sword/main/design-assets/screenshots/desktop/desktop-02.png'
+    caption: 'Use a dark theme for comfortable reading and study'
+  - imageUrl: 'https://raw.githubusercontent.com/JenuelDev/Believers-Sword/main/design-assets/screenshots/desktop/desktop-04.png'
+    caption: 'Choose from flexible accent colors and appearance themes'
+  - imageUrl: 'https://raw.githubusercontent.com/JenuelDev/Believers-Sword/main/design-assets/screenshots/desktop/desktop-05.png'
+    caption: 'Organize prayer requests and keep track of answered prayers'
+  - imageUrl: 'https://raw.githubusercontent.com/JenuelDev/Believers-Sword/main/design-assets/screenshots/desktop/desktop-07.png'
+    caption: 'Read daily devotionals in a clean light theme'
