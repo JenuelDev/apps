@@ -1,5 +1,7 @@
 name: Loom
-description: 'Instantly shareable screen and camera recordings.'
+description:
+  'Record your screen, share your thoughts, and get things done faster with
+  async video.'
 website: 'https://www.loom.com'
 category: 'Developer Tools'
 keywords:
@@ -8,6 +10,3 @@ keywords:
   - communication
   - development
   - 4k
-screenshots:
-  - imageUrl: 'https://s3-us-west-1.amazonaws.com/opentest.static.assets/images/desktop_screenshot.png'
-    caption: 'Video recording, simplified.'

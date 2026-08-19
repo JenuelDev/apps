@@ -2,11 +2,6 @@
 
 :+1::tada: First off, thanks for taking the time to contribute! :tada::+1:
 
-This project adheres to the Contributor Covenant
-[code of conduct](https://github.com/electron/electron/blob/master/CODE_OF_CONDUCT.md).
-By participating, you are expected to uphold this code. Please report
-unacceptable behavior to electron@github.com.
-
 The following is a set of guidelines for contributing to `electron-apps`. These
 are just guidelines, not rules. Use your best judgment and feel free to propose
 changes to this document in a pull request.
@@ -19,7 +14,6 @@ changes to this document in a pull request.
   - [YML File Rules](#yml-file-rules)
   - [Categories](#categories)
   - [Screenshots](#screenshots)
-  - [Colors](#colors)
   - [Icons](#icons)
   - [Locales](#locales)
   - [Company Logos and Names](#company-logos-and-names)
@@ -106,7 +100,7 @@ apps
 - Reference
 - Science & Medicine
 - Shopping
-- Social Networking
+- Social
 - Sports
 - Travel
 - Utilities
@@ -118,12 +112,10 @@ following format if provided:
 
 ```yml
 screenshots:
-  - 
-    imageUrl: 'https://mysite.com/awesome1.png'
+  - imageUrl: 'https://mysite.com/awesome1.png'
     caption: 'Awesome screenshot 1'
     imageLink: 'https://mysite.com/awesome.html'
-  - 
-    imageUrl: 'https://mysite.com/awesome2.png'
+  - imageUrl: 'https://mysite.com/awesome2.png'
     caption: 'Awesome screenshot 2'
     imageLink: 'https://mysite.com/awesome.html'
 ```
@@ -134,22 +126,6 @@ screenshots:
 - `imageLink` - an optional link URL to indicate the link that should be
   directed to when someone clicks on an image. If this field is not specified,
   clicking on a screenshot will go to the application website.
-
-### Colors
-
-- `goodColorOnWhite` is an optional hex string, e.g. `#660000`
-- `goodColorOnBlack` is an optional hex string.
-- `faintColorOnWhite` is an optional rgba string, e.g. `rgba(100, 0, 0, 0.1)`
-
-If unspecified, an
-[accessible colors](https://github.com/zeke/pick-a-good-color) will be picked or
-derived from the provided icon file.
-
-Colors must meet the
-[WCAG contrast guidelines](https://www.w3.org/TR/WCAG/#visual-audio-contrast).
-You can use
-[leaverou.github.io/contrast-ratio](http://leaverou.github.io/contrast-ratio/)
-to help pick accessible colors.
 
 ### Icons
 
@@ -287,21 +263,6 @@ hyper
 ├── hyper-icon-64.png
 ├── hyper-icon.png
 └── hyper.yml
-```
-
-Then the bot extracts a color palette from the app icon:
-
-```yml
-iconColors: ['#FF0000', '#C54F23', '#DD8833']
-```
-
-And it also picks some colors that are "on brand" for use on black or white
-backgrounds:
-
-```yml
-goodColorOnWhite: '#916E02'
-goodColorOnBlack: '#FCCC36'
-faintColorOnWhite: 'rgba(80, 0, 0, 0.1)
 ```
 
 Lastly, the bot commits changes to git, pushes to GitHub, and publishes a new
